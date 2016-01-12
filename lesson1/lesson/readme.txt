@@ -2,7 +2,7 @@ zdrasti
 
 1 Angel
 
-2
+2  azis e nomer 1
 
 3 Neshto
 

@@ -6,8 +6,8 @@ zdrasti
 
 3
 
-4Todor Todor
+4
 
 5
 
-6
+6Todor Todor

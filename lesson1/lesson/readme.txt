@@ -1,6 +1,6 @@
 zdrasti
 
-1
+1 AMG
 
 2
 

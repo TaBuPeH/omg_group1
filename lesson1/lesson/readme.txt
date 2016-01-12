@@ -1,6 +1,6 @@
 zdrasti
 
-1 AMG
+1
 
 2
 
@@ -8,6 +8,6 @@ zdrasti
 
 4
 
-5
+5 AMG
 
 6

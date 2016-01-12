@@ -1,1 +1,1 @@
-kutiq pulnas taini
+azis

@@ -1,1 +1,2 @@
-kutiq pulnas taini ela i si wzemi
+kutiq pulnas taini ela i si wzemi geriiii
+

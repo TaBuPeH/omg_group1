@@ -4,7 +4,7 @@ zdrasti
 
 2  azis e nomer 1
 
-3
+3 Neshto
 
 4
 

@@ -1,0 +1,50 @@
+#firstDiv 
+{
+	background-color: #FF0000;
+	font-size: 18px;
+	font-family: Arial;
+}
+
+
+.testDiv
+{
+	font-size: 30px;
+	background-color: #00FF00;
+}
+
+div
+{
+	background-color: #0000FF;
+}
+
+
+div.rootElement#someId
+{
+	background-color: purple;
+}
+
+div div
+{
+	border: 1px solid #800080;
+}
+
+div.rootElement span#testSpan a
+{
+	color: #fff;
+}
+div.rootElement #link1
+{
+	color: #F00;
+}
+
+.secondInfo
+{
+	background-color: yellow;
+}
+
+.thirdInfo
+{
+	background-color: pink;
+}
+
+

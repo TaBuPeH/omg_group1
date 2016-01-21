@@ -1,0 +1,62 @@
+html, 
+body
+{
+	margin: 0px;
+	padding: 0px;	
+}
+.mainContainer
+{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: pink;
+	float: left;
+	position: relative;
+}
+
+
+
+.item{
+	width: 23%;
+	float: left;
+	margin: 1%;
+	position: relative;
+}
+
+
+
+.image img
+{
+	width: 100%;
+	
+}
+
+.topOfferContainer
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	overflow: hidden;
+}
+
+.topOfferContainer img
+{
+	position: relative;
+	z-index: 500;
+}
+
+.priceReduction {
+    background-color: #be0b0b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    padding-top: 16px;
+    position: absolute;
+    right: -24px;
+    text-align: center;
+    top: -10px;
+    transform: rotate(40deg);
+    width: 70%;
+    z-index: 300;
+}

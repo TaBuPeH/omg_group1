@@ -1,0 +1,29 @@
+body{
+	padding:0%;
+	margin:0%;
+}
+#bigcontainer{
+background-color: blue;
+width:70%;
+margin-left:15%;
+margin-right: 15%;
+float:left;
+position: relative;
+border-radius: 1px;
+
+}
+.mam{
+	float:left;
+	margin:1%;
+	position:relative;
+}
+img{
+	
+	height:100px;
+	width: 100px;
+}
+.kompot {
+	overflow:hidden;
+	position:absolute;
+	top:0px;
+	right:0px;

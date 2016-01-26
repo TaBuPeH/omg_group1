@@ -1,0 +1,28 @@
+html,
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+.main
+{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #000099;
+	float: left;
+	position: relative;
+}
+
+.car
+{
+	width: 23%;
+	float: right;
+	margin: 1%;
+	position: relative;
+}
+
+.image
+{
+	width: 100%;
+}

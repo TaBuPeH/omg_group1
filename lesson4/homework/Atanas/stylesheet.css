@@ -2,7 +2,7 @@ body{
 	padding:0%;
 	margin:0%;
 }
-#bigcontainer{
+.bigcontainer{
 background-color: blue;
 width:70%;
 margin-left:15%;
@@ -17,13 +17,13 @@ border-radius: 1px;
 	margin:1%;
 	position:relative;
 }
-img{
+.image{
 	
-	height:100px;
-	width: 100px;
+	height:10%;
+	width: 10%;
 }
-.kompot {
+.sp {
 	overflow:hidden;
-	position:absolute;
+	position:relative;
 	top:0px;
 	right:0px;

@@ -10,7 +10,7 @@ height: 50%;
 margin-left:15%;
 margin-right: 15%;
 float:left;
-position-relative;
+position: relative;
 padding-left: 5%;
 padding-top: 3%;
 padding-bottom: 3%;
@@ -21,14 +21,14 @@ padding-bottom: 3%;
 	float:left;
 	margin:1%;
 	position:relative;
+	width: 23%;
 }
 img{
-	width:150px;
-	height:170px;
+	width: 100%;
 }
 .tosh {
 	overflow:hidden;
-	position:abosolute;
+	position:absolute;
 	top:0px;
 	right:0px;
 }

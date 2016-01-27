@@ -16,9 +16,9 @@ body {
 .mam {
     float: left;
     margin: 5%;
+    margin-block-start: 3%;
     position: relative;
     width: 23%;
-    margin-block-start: 3%;
 }
 .image img {
     width: 100%;
@@ -31,4 +31,28 @@ body {
 }
 .dope {
     text-align: center;
+}
+@media screen and (max-width: 1024px) {
+.bigcontainer {
+    margin: 0px 10%;
+    width: 80%;
+}
+.mam {
+    width: 40%;
+}
+.item .dope {
+    font-size: 3vw;
+}
+}
+@media screen and (max-width: 640px) {
+.bigcontainer {
+    margin: 0px 5%;
+    width: 88%;
+}
+.mam {
+    width: 90%;
+}
+.mam .dope {
+    font-size: 5vw;
+}
 }

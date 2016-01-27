@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.bigcontainer {
+    background-color: blue;
+    border-radius: 19px;
+    float: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    position: relative;
+    vertical-align: baseline;
+    width: 70%;
+}
+.mam {
+    float: left;
+    margin: 5%;
+    position: relative;
+    width: 23%;
+    margin-block-start: 3%;
+}
+.image img {
+    width: 100%;
+}
+.sp img {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.dope {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1024px) 
+{
+    
+    
+   .bigcontainer {
+        margin: 0 10%;
+        width: 80%;
+    }
+    
+    .mam
+    {
+        width: 48%;
+    }
+    .item .name
+    {
+        font-size: 3vw;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 640px) 
+{
+    
+    
+    .bigcontainer {
+        margin: 0 5%;
+        width: 90%;
+    }
+    
+    .mam
+    {
+        width: 98%;
+    }
+    
+    .mam .name
+    {
+        font-size: 5vw;
+    }
+    
+}

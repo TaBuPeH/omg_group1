@@ -1,0 +1,154 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('http://themeflush.com/minimalix/demo4/wp-content/uploads/2014/08/wallpapers-for-christian-background-tumblr-photography-vintage-images-tumblr-wallpapers.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 80%;
+}
+
+.main {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #808080;
+    float: left;
+    position: relative;
+    border-radius: 1%;
+}
+
+.car {
+    width: 31%;
+    float: left;
+    margin: 1%;
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+}
+
+.topOffer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+    .topOffer img {
+        position: relative;
+        width: 60px;
+        height: 60px;
+    }
+
+
+/*Homework Lesson 5*/
+
+.car:nth-of-type(2) {
+    background-color: #ffd800;
+}
+
+.car:nth-of-type(2n+1) {
+    background-color: #ff0000;
+}
+
+.car:last-of-type {
+    background-color: #0094ff;
+}
+
+.car:nth-of-type(2n+1) li:hover {
+    background-color: white;
+}
+
+.car:nth-of-type(2n+1) li:active {
+    background-color: pink;
+}
+
+
+.textleft
+{
+    float: left;
+    width: 18%;
+    margin-left:3%;
+    background-color: #328eac;
+    
+}
+
+.valeri img
+{
+    width: 204px;
+    height: 204px;
+}
+
+.fixedpicture img
+{
+    width: 120px;
+    height: 120px;
+    border: 8px dotted #070c67;
+    right: 2.5%;
+    position: fixed;
+}
+
+
+
+/*Responsive*/
+
+@media screen and (max-width: 1024px) {
+
+    .main {
+        margin: 8%;
+        width: 86%;
+    }
+
+    .car {
+        width: 48%;
+    }
+
+        .car .carModel {
+            font-size: 4vw;
+        }
+}
+    .fixedpicture
+    {
+      
+        width: 50%;
+    }
+
+    /*.textleft
+    {
+        margin: 8%;
+        width: 88%;
+        font-size: 3vw;
+    }*/
+
+
+@media screen and (max-width: 640px) {
+
+    .main {
+        margin: 5%;
+        width: 92%;
+    }
+
+    .car {
+        width: 96%;
+    }
+
+        .car .carModel {
+            font-size: 7vw;
+        }
+}
+
+ .fixedpicture
+    {
+       
+        width: 90%;
+    }
+
+    /*.textleft
+    {
+        margin: 8%;
+        width: 88%;
+        font-size: 5vw;
+    }*/
+

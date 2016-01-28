@@ -94,33 +94,42 @@ body {
 
 /*Responsive*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) 
+{
 
-    .main {
+    .main 
+    {
         margin: 8%;
         width: 86%;
     }
 
-    .car {
+    .car 
+    {
         width: 48%;
     }
 
-        .car .carModel {
+    .car .carModel 
+    {
             font-size: 4vw;
-        }
-}
+    }
+
+
+
     .fixedpicture
     {
       
         width: 50%;
     }
 
-    /*.textleft
+    .textleft
     {
         margin: 8%;
         width: 88%;
         font-size: 3vw;
-    }*/
+    }
+
+
+}
 
 
 @media screen and (max-width: 640px) {

@@ -48,6 +48,7 @@ img{
 	#Golqma{
 	width : 90% ;
 	margin: 0% 5% ;
+	display:inline-block;
 	}
 	.igrai{
 		width: 98%;
@@ -66,6 +67,7 @@ img{
 	#Golqma{
 	width : 80% ;
 	margin: 0% 10% ;
+	display: inline-block;
 	}
 	.igrai{
 		width: 48%;

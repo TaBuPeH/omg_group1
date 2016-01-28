@@ -1,0 +1,47 @@
+﻿body,
+html
+{
+    list-style: none;
+    padding: 20px;
+    /*margin: 20px;*/
+}
+
+.item
+{
+   background-color: #3d49d4;
+}
+
+li:first-of-type
+{
+    background-color: #808080;
+}
+
+li:nth-of-type(2n+1)
+{
+    background-color: #9cae5c;
+}
+
+li:last-of-type
+{
+    background-color: #352828
+}
+
+
+
+
+input:focus
+{
+    background-color: #3d49d4;
+}
+
+li:hover
+{
+    background-color: #b6ff00;
+}
+
+li:active
+{
+    
+    background-color: #ff0000;
+}
+

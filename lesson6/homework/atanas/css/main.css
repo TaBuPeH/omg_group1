@@ -210,8 +210,36 @@ section .columns .column
 {
 	margin-top: 0%
 
-
 }
+.share1
+{
+height:49px;
+width: 140px;
+background-color: #3b5998;
+float: left;
+}
+.share1 img 
+{
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 5%;
+    float: left;
+    }
+.share2
+{
+	height:49px;
+    width: 140px;
+    background-color: #d14333;
+    float: left;
+}
+.share2 img 
+{
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 5%;
+    float: left;
+    }
+    
 @media all and (max-width: 640px)
 {
 	section .columns .column

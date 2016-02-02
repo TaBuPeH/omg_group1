@@ -162,6 +162,10 @@ section.purpleBack
 	background-color: #775ba3;
 }
 
+.gayImg
+{
+	width: 100%;
+}
 
 section h2
 {
@@ -263,10 +267,7 @@ section .columns .column
 	 float:left;
 	 margin-left: 1%;
  }
- .snimka img
- {
-	 width: 100%;
- }
+ 
  
  
  .snimka p 

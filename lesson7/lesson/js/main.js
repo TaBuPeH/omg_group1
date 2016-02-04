@@ -155,7 +155,32 @@ while(iztegleni.length < 6)      // iztegleni.length = 0;
 
 
 
+var numbers = Array();
 
+for(i=0; i<20; i++)
+{
+	numbers[i] = parseInt(Math.random()*100) + 1; 
+}
+
+
+bubbleSort(numbers);
+
+function bubbleSort(a)
+{
+    var swapped;
+    do {
+        swapped = false;
+        for (var i=0; i < a.length-1; i++) {
+            if (a[i] > a[i+1]) {
+                var temp = a[i];
+                a[i] = a[i+1];
+                a[i+1] = temp;
+                swapped = true;
+            }
+        }
+    } while (swapped);
+}
+ 
 
 
 /*

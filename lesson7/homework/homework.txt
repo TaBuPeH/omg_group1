@@ -1,4 +1,4 @@
-/*
+﻿/*
  *    Изберете си число между 100 - 999;
  * 
  * 	  проверете дали сбора от цифрите му е = 13;
@@ -6,3 +6,12 @@
  *    alert('yes') ако е така;
  * 
  */
+
+
+var x=0;
+console.log(vuvedi chislo x mejdu 100 i 999);
+if(x<999||x>100)
+{
+   console.log(ailqk);
+ }
+ else console.log(dushi huq probvai pak )

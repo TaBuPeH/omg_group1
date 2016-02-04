@@ -41,13 +41,16 @@
     {
         drawnNumbers[i] = parseInt(Math.random() * 42) + 1;
 
-        if ((drawnNumbers[i] == drawnNumbers[i + 1]) && (drawnNumbers[i] < 6))
-        {
-
-            for (var j = 0; j < drawnNumbers.length; j++) {
-                drawnNumbers[j] = parseInt(Math.random() * 42) + 1;
-            }
-        }
+		
+		 for (var j = 0; j < i; j++) {
+			 
+			(drawnNumbers[i] == drawnNumbers[j])
+			{
+				drawnNumbers[i] = parseInt(Math.random() * 42) + 1;
+			}
+		}
+		
+		
 
     }
 
@@ -60,7 +63,7 @@
 
     
 
-    drawnNumbers.toString();
+    alert(drawnNumbers.toString());
 
 
     

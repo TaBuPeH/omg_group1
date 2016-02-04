@@ -1,0 +1,67 @@
+<html>
+	
+	<head>
+		
+		<link href='css/main.css' rel="stylesheet" />
+		
+		<script>
+		
+		document.addEventListener("DOMContentLoaded", function(event) { 
+			
+		
+			var ourDiv = document.querySelector('#mainDiv');
+			
+			ourDiv.addEventListener("mouseover", function(){
+				
+				ourDiv.style.backgroundColor = 'blue';
+				
+			} );
+			
+			ourDiv.addEventListener("mouseout", function(){
+				
+				ourDiv.style.backgroundColor = 'red';
+			});
+			
+
+			var inputs = document.querySelectorAll("body div.secondDiv input");
+			
+			for(i=0; i<inputs.length; i++)
+			{
+				inputs[i].value='baf';
+				inputs[i].addEventListener("click",function(){
+					
+					alert('baf');
+				});
+			}
+			
+			
+			
+			/* element */document.querySelector("body div.secondDiv input");
+			/* collection */document.querySelectorAll("body div.secondDiv input");
+			
+		});	
+			
+		</script>
+		
+	</head>
+	
+	
+	<body>
+		
+		<div id='mainDiv'>
+			
+			<div class='secondDiv' >
+				
+				<input type='button' value='Change This Value'>
+				<input type='button' value='Change This Value2'>
+				
+			</div>
+			
+		</div>
+		
+	
+		
+	</body>
+	
+	
+</html>

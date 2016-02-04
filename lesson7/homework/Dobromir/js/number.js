@@ -1,5 +1,6 @@
 function numberCheck() {
   var numberForCheck;
+  
   do
   {
     numberForCheck = parseInt(prompt("Please enter your number"));

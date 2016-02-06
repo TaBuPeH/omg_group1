@@ -61,6 +61,7 @@ table {
   position: relative;
   float: left;
   width: 100%;
+	border: solid 3px;
 }
 
 .number{

@@ -95,21 +95,27 @@ body {
 
 /*Responsive*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) 
+{
 
-    .main {
+    .main 
+    {
         margin: 8%;
         width: 86%;
     }
 
-    .car {
+    .car 
+    {
         width: 48%;
     }
 
-        .car .carModel {
+    .car .carModel 
+    {
             font-size: 4vw;
-        }
-}
+    }
+
+
+
     .fixedpicture
     {
       
@@ -122,6 +128,12 @@ body {
         width: 20%;
         font-size: 3vw;
     }
+<<<<<<< HEAD
+=======
+
+
+}
+>>>>>>> f5c39c1d3b9e9f3090555a53e09479201a894db8
 
 
 @media screen and (max-width: 640px) {

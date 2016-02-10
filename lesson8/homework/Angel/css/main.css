@@ -1,0 +1,47 @@
+body,
+html
+
+.body
+{
+ 	background-color: seagreen;
+}
+
+.mainContainer
+{
+	margin-left: 35%;
+}
+
+.button 
+{
+	background-color: peachpuff;
+	border-radius: 11px;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+
+}
+
+.button:first-of-type
+{
+	margin-left: 10%;
+}
+
+#mainImage
+{
+	height: 500px;
+    width: 560px;
+    border-radius: 112px;
+}
+
+img 
+{
+	display: block;
+}
+
+/*.gallery
+{
+	position: absolute;
+
+}*/

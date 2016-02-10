@@ -1,0 +1,22 @@
+html,
+body 
+.body
+{
+	 background-color: #003366;
+}
+
+.mainContainer
+{
+	
+	margin-left: 23%;
+    margin-top: 8%;
+}
+
+.luckyNumber
+{
+	border: 5px dashed cyan;
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+    margin-left: 2%;
+}

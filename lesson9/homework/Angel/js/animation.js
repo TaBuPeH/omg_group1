@@ -82,7 +82,7 @@ $(document).ready(function(){
             }
              
              
-            if( $('.gallery img:visible').index()  !=  $(this).index())
+            if( $('.gallery img:visible').index()  <  $(this).index())
             {
                 // tell the site we are animating
                 isAnimating = true;

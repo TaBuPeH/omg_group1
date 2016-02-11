@@ -50,7 +50,7 @@ $(document).ready(function(){
              
               $('.gallery img:visible').animate( {left: "100%"} , 1000, function(){
                     // move the element to the right of others
-                    $(this).css( {left: "-100%", display:"none"} );
+                    $(this).css( { display:"none"} );
                     // set animation is done
                     isAnimating = false;
                    
@@ -74,6 +74,7 @@ $(document).ready(function(){
                 var nextImage = $('.gallery img').eq(currentNumber);
                 // set the image to be visible
                 nextImage.css('display',"block");
+                nextImage.css('left','-100%');
 
                 // animate the image to the proper place
                 nextImage.animate({left:"0%"}, 1000);

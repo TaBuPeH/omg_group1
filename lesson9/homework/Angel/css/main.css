@@ -11,8 +11,8 @@ body
 	position: relative;
 	width: 100%;
 	overflow: hidden;	
-	/*height: 633px;*/
-	height: 400px;
+	height: 633px;
+	/*height: 400px;*/
 }
 
 .gallery img
@@ -43,5 +43,5 @@ body
 
 .circle:first-of-type
 {
-	margin-left: 40%;
+	margin-left: 45%;
 }

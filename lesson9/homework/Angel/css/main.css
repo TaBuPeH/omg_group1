@@ -1,0 +1,47 @@
+html,
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.gallery
+{
+	position: relative;
+	width: 100%;
+	overflow: hidden;	
+	/*height: 633px;*/
+	height: 400px;
+}
+
+.gallery img
+{
+	width: 100%;
+	display: none;
+	position:absolute;
+	top: 0;
+	left: 100%;
+}
+
+.gallery img:first-of-type
+{
+	display: block;
+	left: 0px;
+}
+
+.circle
+{
+	width: 30px;
+	border-radius: 20px;
+	background-color: cadetblue;
+	height: 30px;
+	display: inline-block;
+	margin: 12px;
+	cursor: pointer;
+}
+
+.circle:first-of-type
+{
+	margin-left: 40%;
+}

@@ -16,12 +16,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	
 	
 	
-	var intervalVariable = setInterval(function(){
-		
-		alert('baf');
-		
-	} ,1000);
-	
 	
 	var timeout = setTimeout( x ,4000);
 	

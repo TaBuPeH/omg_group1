@@ -6,7 +6,8 @@ $cars = Array(
    
    		0=> Array(
 			"descriptionOfTheProduct" => Array(
-				'brand'=>'Audi' => Array(
+				'brand'=>'Audi', 
+				'models'=> Array(
 					'model'=> 'A4',
 					'model'=> 'A6',
 					'model'=> 'A8'
@@ -14,9 +15,9 @@ $cars = Array(
 				'year'=> 2014,
 			),
 			"price" => Array(
-				'price1' => 30 000,
-				'price2' => 50 000,
-				'price3' => 75 000
+				'price1' => 30000,
+				'price2' => 50000,
+				'price3' => 75000
 				),
 			"quantity" => 3
 		),
@@ -24,7 +25,8 @@ $cars = Array(
 		
 		1=> Array(
 			"descriptionOfTheProduct" => Array(
-				'brand'=>'BMW' => Array(
+				'brand'=>'BMW',
+				'models'=> Array(
 					'model'=> '320d',
 					'model'=> '520d',
 					'model'=> '730',
@@ -33,17 +35,18 @@ $cars = Array(
 				'year'=> 2013,
 			),
 			"price" => Array(
-				'price1' => 20 000,
-				'price2' => 30 000,
-				'price3' => 45 000,
-				'price4' => 100 000
+				'price1' => 20000,
+				'price2' => 30000,
+				'price3' => 45000,
+				'price4' => 100000
 				),
 			"quantity" => 4
 		),
 
 		2=> Array(
 			"descriptionOfTheProduct" => Array(
-				'brand'=>'Mercedes-Benz' => Array(
+				'brand'=>'Mercedes-Benz',
+				'models'=> Array(
 					'model'=> 'CLS 350',
 					'model'=> 'S 500',
 					'model'=> 'C 200'
@@ -51,9 +54,9 @@ $cars = Array(
 				'year'=> 2015,
 			),
 			"price" => Array(
-				'price1' => 80 000,
-				'price2' => 50 000,
-				'price3' => 15 000
+				'price1' => 80000,
+				'price2' => 50000,
+				'price3' => 15000
 				),
 			"quantity" => 3
 		)

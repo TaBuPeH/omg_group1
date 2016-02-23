@@ -1,5 +1,13 @@
+<html>
+	<head>
+		<link rel='stylesheet' type='text/css' href='css/main.css' />
+	</head>
+	<body>
+		
+		
+		
 <?php
-   echo "<link rel='stylesheet' type='text/css' href='css/main.css' />";
+  // echo "<link rel='stylesheet' type='text/css' href='css/main.css' />";
 	 echo"<pre>";
 
    $items = Array(
@@ -71,28 +79,43 @@
    echo "<br><br><br><span class='title'>This is what we have in our store:</span><br><br><br>";
 
    echo "<div class= 'mainContainer'>";
+   
+   
+   
+   
    foreach($items as $key=>$value) {
      echo "<div class='item'>";
 
 
-     echo "<span class='name'>".$value["description"]["brand"]." ".$value["description"]["model"]." - ".$value["price"]."$</span>";
+     	echo "<span class='name'>".$value["description"]["brand"]." ".$value["description"]["model"]." - ".$value["price"]."$</span>";
 
 
-     echo "Year of manufacture: ".$value["description"]["year"]."<br>";
-     echo "RAM: ".$value["description"]["ram"]." MB<br>";
-     echo "CPU: ".$value["description"]["cpu"]."<br>";
-     echo "Warranty: ".$value["description"]["warranty"]." Months<br>";
+     	echo "Year of manufacture: ".$value["description"]["year"]."<br>";
+     	echo "RAM: ".$value["description"]["ram"]." MB<br>";
+     	echo "CPU: ".$value["description"]["cpu"]."<br>";
+     	echo "Warranty: ".$value["description"]["warranty"]." Months<br>";
 
-     if($value["quantity"] == "0"){
-       echo "No items left in store<br>";
-     }
-     else {
-       echo $value["quantity"]." items left in store<br>";
-     }
+	     if($value["quantity"] == "0"){
+	       echo "No items left in store<br>";
+	     }
+	     else {
+	       echo $value["quantity"]." items left in store<br>";
+	     }
 
      echo "</div>";
    }
+   
+   
+   
+   
+   
    echo "</div>";
 
 
 ?>
+		
+		
+		
+	</body>
+</html>
+

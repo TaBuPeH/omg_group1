@@ -1,0 +1,14 @@
+go home
+create a new database in your local server
+
+create 3 tables
+
+products, shops, shop_products
+
+Fill with relevant information.
+
+(hint shop_products should have fields shop_id and product_id)
+
+Fetch a joined data from the 3 tables.
+
+print_r in php 

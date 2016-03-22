@@ -22,8 +22,7 @@ time, mark, audio, video
 
 body 
 {
-    /*background-image: url('http://gazzettaworld.gazzetta.it/wp-content/uploads/2015/11/Euro-2016-logo.jpg');*/
-	background-image: url('https://i.vimeocdn.com/video/499783054.jpg?mw=1920&mh=1080&q=70');
+    background-image: url('../images/background_3.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 50% 80%;
@@ -61,7 +60,7 @@ header .topLine
 	width: 21.367%;
 	margin-top: 0.2%;
 	margin-bottom: 1.05%;
-	width: 18.367%;
+	width: 10.367%
 }
 
 .logo img
@@ -81,19 +80,19 @@ header nav
     display: block;
     float: left;
     font-family: Georgia;
-    font-size: 1.6vw;
-    padding: 3.9% 1%;
+    font-size: 1.3vw;
+    padding: 3.9% 3%;
     text-decoration: none;
     text-shadow: -4px -3px 1px #000000;
     text-transform: uppercase;
-    margin: 6px 2%;
+    margin: -17px 2%;
 }
 
 .topLine nav a:hover
 {
 	background-color: #09093b;
-	border-radius: 21px;
-    padding: 7px 8px;
+	border-radius: 40px;
+    
 
 }
 
@@ -111,8 +110,6 @@ header nav
 .loginButton a
 {
     text-decoration: none;
-    padding: 3.9% 1%;
-    margin: 0px 1%;
     color: -moz-menuhover;
     text-shadow: 1px 1px 1px #444;
 }

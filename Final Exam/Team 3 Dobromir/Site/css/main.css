@@ -138,6 +138,18 @@ header {
   width: 22%;
 }
 
+.galleryTitle {
+  width: 100%;
+  position: relative;
+  float: left;
+  font-size: 4vw;
+  font-family: Prototype;
+  color:white;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+
 .galleryImg img {
   width: 100%;
 }
@@ -148,7 +160,7 @@ header {
   float: left;
   width: 45%;
   left: -28%;
-  top: -8%;
+  top: -9%;
 }
 
 #overflowImg2 {

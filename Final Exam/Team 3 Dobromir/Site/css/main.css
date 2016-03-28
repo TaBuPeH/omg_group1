@@ -104,6 +104,115 @@ header {
 	width: 100%;
 }
 
+#background{
+	display: none;
+	position: absolute;
+	height: 270vw;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #000000;
+	z-index: 10;
+}
+
+#popup {
+  margin-left: 25%;
+  width:50%;
+  margin-top:10vw;
+	display: none;
+	position: fixed;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 0.5vw;
+	z-index: 20;
+}
+
+#popup img {
+  width: 100%;
+}
+
+.form{
+  width: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+#login{
+  display: none;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+#login .title {
+  margin-bottom: 8%;
+  margin-top: 3%;
+  width: 100%;
+  color:black;
+  text-align: center;
+}
+
+#login_notice {
+  top: 35%;
+  width: 100%;
+  position: absolute;
+  float: left;
+  text-align: center;
+  font-size: 1.5vw;
+  color: rgb(110, 15, 15);
+  font-family: prototype;
+  font-weight: bold;
+}
+
+#register{
+  display: none;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+#register .title {
+  margin-top: 3%;
+  width: 100%;
+  color:black;
+  text-align: center;
+}
+
+.form input {
+  margin-left: 30%;
+  position: relative;
+  float: left;
+  width: 40%;
+  height: 1.5vw;
+  font-size: 1vw;
+  margin-top: 1%;
+}
+
+.form label {
+  margin-top: 1%;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  float: left;
+  font-size: 2vw;
+  font-family: Prototype;
+  color:black;
+}
+
+.form .submit {
+
+  cursor: pointer;
+  margin-top: 2%;
+  width: 20%;
+  height: 3vw;
+  margin-left: 40%;
+  position: relative;
+  float: left;
+  font-family: Prototype;
+  font-size: 2vw;
+
+}
+
 .mainContainer {
   position: relative;
   float: left;
@@ -112,7 +221,7 @@ header {
   margin-top: 15%;
   margin-bottom: 15%;
   width: 60%;
-  background-color: #282828;
+  background-image: url('../img/mainContainerBg.jpg');
 	border: 0.5vw solid black;
 
 
@@ -128,17 +237,7 @@ header {
   margin-top: 5%;
 }
 
-.galleryImg {
-  border: 0.2vw solid black;
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-top: 1%;
-  position: relative;
-  float: left;
-  width: 22%;
-}
-
-.galleryTitle {
+.title {
   width: 100%;
   position: relative;
   float: left;
@@ -149,9 +248,53 @@ header {
   text-align: center;
 }
 
+.galleryImg {
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  position: relative;
+  float: left;
+  width: 22%;
+}
 
 .galleryImg img {
+  border: 0.2vw solid black;
   width: 100%;
+}
+
+.videos {
+  width: 90%;
+  position: relative;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
+.videoImg {
+  cursor: pointer;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  position: relative;
+  float: left;
+  width: 45%;
+}
+
+.videoImg img {
+  width: 100%;
+  border: 0.2vw solid black;
+}
+
+iframe {
+  display: none;
+  position: relative;
+  float: left;
+  margin-top: 5%;
+  width: 78%;
+  height: 0;
+  margin-left: 10%;
 }
 
 #overflowImg1 {

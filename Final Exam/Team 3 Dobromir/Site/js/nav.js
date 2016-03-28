@@ -38,41 +38,56 @@ $(document).ready(function(){
   });
 
   //scroll for 1st button
-  $("#placeholder1").click(function() {
+  $("#gallery").click(function() {
 
     $('html, body').animate({
-        scrollTop: $(".mainContainer").offset().top
+        scrollTop: $(".gallery").offset().top
     }, 1000);
 
   });
 
 
   //scroll for 2nd button
-  $("#placeholder2").click(function() {
+  $("#videos").click(function() {
 
     $('html, body').animate({
-        scrollTop: $(".mainContainer").offset().top
+        scrollTop: $(".videos").offset().top
     }, 1000);
 
   });
 
 
-  //scroll for 3rd button
-  $("#placeholder3").click(function() {
+  //action for 3rd button
+  $("#loginButton").click(function() {
 
-    $('html, body').animate({
-        scrollTop: $(".mainContainer").offset().top
-    }, 1000);
+    tempSrc = "img/transparent.png"
+    $("#popup").find('img').attr("src", tempSrc);
+
+    $("#background").css({"opacity" : "0.7"});
+    $("#background").fadeIn("slow");
+
+    $("#popup").fadeIn("slow");
+
+    $("#login").css({"opacity" : "1"});
+    $("#login").fadeIn("slow");
+
+  });
+
+  //action for 4th button
+  $("#registerButton").click(function() {
+
+    tempSrc = "img/transparent.png"
+    $("#popup").find('img').attr("src", tempSrc);
+
+    $("#background").css({"opacity" : "0.7"});
+    $("#background").fadeIn("slow");
+
+    $("#popup").fadeIn("slow");
+
+    $("#register").css({"opacity" : "1"});
+    $("#register").fadeIn("slow");
 
   });
 
-  //scroll for 4th button
-  $("#placeholder4").click(function() {
-
-    $('html, body').animate({
-        scrollTop: $(".mainContainer").offset().top
-    }, 1000);
-
-  });
 
 });

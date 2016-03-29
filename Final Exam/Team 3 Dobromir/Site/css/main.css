@@ -178,6 +178,18 @@ header {
   text-align: center;
 }
 
+#register_notice {
+  top: 24%;
+  width: 100%;
+  position: absolute;
+  float: left;
+  text-align: center;
+  font-size: 1.5vw;
+  color: rgb(110, 15, 15);
+  font-family: prototype;
+  font-weight: bold;
+}
+
 .form input {
   margin-left: 30%;
   position: relative;

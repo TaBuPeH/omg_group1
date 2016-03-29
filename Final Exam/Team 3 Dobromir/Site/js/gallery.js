@@ -45,6 +45,13 @@ $(document).ready(function(){
     $("#popup").fadeOut("slow");
     $("#login").fadeOut("slow");
     $("#register").fadeOut("slow");
+    $("#login_username").val("");
+    $("#login_password").val("");
+    $("#register_username").val("");
+    $("#register_password").val("");
+    $("#register_email").val("");
+    $('#login_notice').html("");
+    $('#register_notice').html("");
     //for adding the scrollbar bakc again
     //$("body").css({"overflow": "auto"});
 

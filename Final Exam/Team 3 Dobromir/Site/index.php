@@ -10,7 +10,7 @@
   <script src='js/nav.js'></script>
   <script src='js/gallery.js'></script>
   <script src='js/video.js'></script>
-  <script src='js/h.js'></script>
+  <script src='js/ajax.js'></script>
 </head>
 
 <body>
@@ -48,26 +48,27 @@
       <div id = "login">
         <div class = "title">Login</div>
         <div id = "login_notice"></div>
-        <form method='post' action = 'ss.php'>
+        <form>
           <label for="login_username">Username</label>
     	    <input type='text' name='username' id="login_username">
           <label for="login_password">Password</label>
     			<input type='password' name='password' id = "login_password">
-    			<input type='submit' value='LogIn' class = 'submit'>
+    			<input type='submit' value='LogIn' class = 'submit' id = 'login_submit'>
     		</form>
       </div>
 
 
       <div id = "register">
         <div class = "title">Register</div>
-        <form method='post' action = 'index.html'>
+        <div id = "register_notice"></div>
+        <form>
           <label for="register_username">Username</label>
     	    <input type='text' name='username' id="register_username">
           <label for="register_password">Password</label>
     			<input type='password' name='password' id = "register_password">
           <label for="register_email">Email</label>
     			<input type='email' name='email' id = "register_email">
-    			<input type='submit' value='Register' class = 'submit'>
+    			<input type='submit' value='Register' class = 'submit' id = 'register_submit'>
     		</form>
       </div>
 

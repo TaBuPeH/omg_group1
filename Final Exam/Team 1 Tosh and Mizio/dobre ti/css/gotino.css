@@ -2,6 +2,7 @@
          display:inline-block;
 		 position: relative;
 		 
+		 
 }
 
 body{
@@ -11,10 +12,15 @@ body{
 	
 }
 .columnright{
-	float: right ; 
+	float: right; 
+	
+	
+	
 }
 .columnleft{
 	float: left;
+	
+	
 }
 .end{
 	clear: both;

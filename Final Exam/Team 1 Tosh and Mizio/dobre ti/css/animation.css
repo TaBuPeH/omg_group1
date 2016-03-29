@@ -1,0 +1,62 @@
+body, html
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.gallery
+{
+	width: 100%;
+	position: relative;
+    overflow:hidden;
+    height: 434px;
+    border: 2px solid Highlight;
+
+
+}
+
+.gallery img
+{
+	width: 100%;
+    display: none;
+    position: relative;
+    
+
+}
+
+.gallery img:first-of-type
+{
+	display: block;
+	top: 0px;
+
+}
+
+.circles
+{
+	margin-top: 3%;
+	margin-left: 45%;
+	margin-right: 45%;
+	position: relative;
+
+}
+
+.button
+{
+
+}
+
+#button1
+{
+
+}
+
+#button2
+{
+	
+}
+
+#button3
+{
+	
+}
+

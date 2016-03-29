@@ -79,17 +79,23 @@ header nav
     float: left;
     font-family: Georgia;
     font-size: 1.3vw;
-    padding: 3.9% 3%;
+   /* padding: 3.9% 3%;*/
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  	width: 20%;
+  	text-align: center;
+  	
     text-decoration: none;
-    text-shadow: -4px -3px 1px #000000;
+    text-shadow: 1px 1px 1px #000000;
     text-transform: uppercase;
-    margin: -15px 2%;
+   /* margin: -15px 2%;*/
 }
 
 .topLine nav a:hover
 {
-	background-color: #09093b;
-	border-radius: 40px;
+	background-color: highlight;
+	color: #fff;
+	/*border-radius: 40px;*/
     
 
 }

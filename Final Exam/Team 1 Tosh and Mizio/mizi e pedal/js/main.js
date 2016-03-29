@@ -43,10 +43,7 @@ $(document).ready(function(){
 	
 	
 
-	function showNext()
-	{
-		$('.gallery img:visible').click();
-	}
+	
 	
 	setInterval(showNext,4000);
 
@@ -62,7 +59,10 @@ $(document).ready(function(){
 
 
 
-
+function showNext()
+{
+	$('.gallery img:visible').click();
+}
 
 
 

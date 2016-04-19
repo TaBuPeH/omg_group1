@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   $('.navButton').mouseover(function(){
 
-    //hard coding is bad but I am lazy and its 3 because of the logo
+    //some comment here
     if($(this).index() < 3){
 
       //buttons on the left side of the logo
@@ -56,12 +56,11 @@ $(document).ready(function(){
 
   });
 
-
   //action for 3rd button
   $("#loginButton").click(function() {
 
     tempSrc = "img/transparent.png"
-    $("#popup").find('img').attr("src", tempSrc);
+    $("#popup").find('#full').attr("src", tempSrc);
 
     $("#background").css({"opacity" : "0.7"});
     $("#background").fadeIn("slow");
@@ -77,7 +76,7 @@ $(document).ready(function(){
   $("#registerButton").click(function() {
 
     tempSrc = "img/transparent.png"
-    $("#popup").find('img').attr("src", tempSrc);
+    $("#popup").find('#full').attr("src", tempSrc);
 
     $("#background").css({"opacity" : "0.7"});
     $("#background").fadeIn("slow");
@@ -89,5 +88,46 @@ $(document).ready(function(){
 
   });
 
+  //action for 5th button
+  $("#fightButton").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".info").offset().top
+    }, 1000);
+  });
+
+  //action for 6th button
+  $("#logoutButton").click(function() {
+
+    $.ajax({
+      url: "logout.php",
+      success: function(result) {
+        location.reload();
+      }
+   });
+
+  });
+
+  //action for logo
+  $("#logo").click(function() {
+    location.reload();
+  });
+
+  //action for facebook
+  $('.fa-facebook-official').mouseover(function(){
+    $('#facebook_hover').css({display: "block"});
+  });
+
+  $('.fa-facebook-official').mouseout(function(){
+    $('#facebook_hover').css({display: "none"});
+  });
+
+  //action fot twitter
+  $('.fa-twitter-square').mouseover(function(){
+    $('#twitter_hover').css({display: "block"});
+  });
+
+  $('.fa-twitter-square').mouseout(function(){
+    $('#twitter_hover').css({display: "none"});
+  });
 
 });

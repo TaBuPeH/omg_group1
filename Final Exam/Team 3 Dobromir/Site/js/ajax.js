@@ -1,18 +1,14 @@
 $(document).ready(function(){
 
+  //action for login submit
   $('#login_submit').click(function(){
-
-		var myUsername = $('#login_username').val();
-		myUsername = myUsername.trim();
-    var myPassword = $('#login_password').val();
-		myPassword = myPassword.trim();
 
 			$.ajax({
 
-				url: "ss.php",
+				url: "login.php",
 				type: "POST",
-				data: {username: myUsername,
-               password: myPassword},
+				data: {username: $('#login_username').val(),
+               password: $('#login_password').val()},
 
         success: function(result) {
 
@@ -20,7 +16,6 @@ $(document).ready(function(){
 
           if($('#login_notice').html() == ''){
             location.reload();
-            //alert(2);
           }
 
   			}
@@ -30,33 +25,82 @@ $(document).ready(function(){
   });
 
 
-  $('#register_submit').click(function(){
 
-		var myUsername = $('#register_username').val();
-		myUsername = myUsername.trim();
-    var myPassword = $('#register_password').val();
-		myPassword = myPassword.trim();
-    var myEmail = $('#register_email').val();
-    myEmail = myEmail.trim();
+  //action for register submit
+  $('#register_submit').click(function(){
 
 			$.ajax({
 
-				url: "ss.php",
+				url: "register.php",
 				type: "POST",
-				data: {username: myUsername,
-               password: myPassword,
-               email: myEmail,},
+				data: {username: $('#register_username').val(),
+               password: $('#register_password').val(),
+               email: $('#register_email').val()},
 
         success: function(result) {
 
   				$('#register_notice').html(result);
 
           if($('#register_notice').html() == ''){
-            //location.reload();
-            alert(2);
+            location.reload();
           }
 
   			}
+
+			});
+    return false;
+  });
+
+
+  //action for rest button
+  $('#rest').click(function(){
+
+      $.ajax({
+
+        url: "rest.php",
+
+        success: function(result) {
+
+            alert(result);
+            location.reload();
+          }
+
+			});
+    return false;
+  });
+
+
+  //action for train button
+  $('#train').click(function(){
+
+      $.ajax({
+
+        url: "train.php",
+
+        success: function(result) {
+
+            alert(result);
+            location.reload();
+
+          }
+
+			});
+
+    return false;
+  });
+
+  //action for fight button
+  $('#fight').click(function(){
+
+      $.ajax({
+
+        url: "fight.php",
+
+        success: function(result) {
+
+            alert(result);
+            location.reload();
+          }
 
 			});
     return false;

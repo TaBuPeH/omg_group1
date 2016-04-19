@@ -126,7 +126,7 @@
                 <div class ='stats'> Defence: n/a</div>
                 <div class ='stats'> Health: n/a</div>
                 <div class ='stats'><img id ='rank' src='img/ranks/rank_0.png'></div>
-                <div class ='stats'> Luck: n/a</div>
+                <div class ='stats'> Wins: n/a</div>
                 <div class ='text'> You must be logged in to play!</div>
 
               </div>";

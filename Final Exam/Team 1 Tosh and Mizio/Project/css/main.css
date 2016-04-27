@@ -79,23 +79,17 @@ header nav
     float: left;
     font-family: Georgia;
     font-size: 1.3vw;
-   /* padding: 3.9% 3%;*/
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
-  	width: 20%;
-  	text-align: center;
-  	
+    padding: 3.9% 3%;
     text-decoration: none;
-    text-shadow: 1px 1px 1px #000000;
+    text-shadow: -4px -3px 1px #000000;
     text-transform: uppercase;
-   /* margin: -15px 2%;*/
+    margin: -15px 0%;
 }
 
 .topLine nav a:hover
 {
-	background-color: highlight;
-	color: #fff;
-	/*border-radius: 40px;*/
+	background-color: #09093b;
+	border-radius: 40px;
     
 
 }
@@ -134,13 +128,17 @@ header nav
    
  }
 
+ .coveredImgs
+ {
+ 	position: relative;
+ }
+
  #coveredImg1
  {
  	position: absolute;
     z-index: 0;
     float: left;
-    top: 60%;
-    left: -2%;
+    left: -14%;
     width: 406px;
     height:525px;
     
@@ -151,8 +149,7 @@ header nav
  	position: absolute;
     z-index: 0;
     float: right;
-    top: 60%;
-    left: 67%;
+    left: 62%;
     width: 426px;
     height:545px;
     
@@ -265,6 +262,201 @@ section:hover
 	border: 1px solid #090909;
 	
 }
+
+
+@media screen and (max-width: 1024px) 
+{
+    
+    
+	.topLine
+	{
+		height: 27%;
+
+	}
+
+	.topMenu
+	{
+		font-size: 3vw;
+
+	}
+
+	nav a
+	{
+		font-size: 2vw;
+	}
+	
+	.gallery
+	{
+		width: 48%;
+	}
+
+	#coveredImg1
+	{
+		width: 220px;
+		height: 227px;
+
+	}
+
+	#coveredImg2
+	{
+		width: 220px;
+		height: 235px;
+		
+
+	}
+
+	.mainContainer
+	{
+		width: 70%;
+	}
+
+    section
+	{
+		font-size: 3vw;
+	}
+
+	.blockImg
+	{
+		height: 25%;
+	}
+
+	#bigBlockImg
+	{
+		height: 20%;
+
+	}
+
+	.heading
+	{
+		font-size: 2.5vw;
+	}
+
+	.text
+	{
+		font-size: 1.5vw;
+	}
+
+	.footer
+	{
+		height: 50px;
+	}
+
+	.footerText
+	{
+		2vw;
+	}
+
+	.columns
+	{
+		height: 50px;
+		font-size: 3vw;
+	}
+
+	.end
+	{
+		font-size: 2vw;
+	}
+
+    
+}
+
+
+@media screen and (max-width: 640px) 
+{
+    
+    
+	.topLine
+	{
+		height: 27%;
+
+	}
+
+	.topMenu
+	{
+		font-size: 3vw;
+
+	}
+
+	nav a
+	{
+		font-size: 2vw;
+	}
+	
+	.gallery
+	{
+		width: 48%;
+	}
+
+	#coveredImg1
+	{
+		width: 140px;
+		height: 160px;
+
+	}
+
+	#coveredImg2
+	{
+		width: 160px;
+		height: 180px;
+		
+
+	}
+
+	.mainContainer
+	{
+		width: 70%;
+	}
+
+    section
+	{
+		font-size: 2vw;
+	}
+
+	.blockImg
+	{
+		height: 25%;
+	}
+
+	#bigBlockImg
+	{
+		height: 20%;
+
+	}
+
+	.heading
+	{
+		font-size: 8px;
+	}
+
+	.text
+	{
+		font-size: 5px;
+	}
+
+	.footer
+	{
+		height: 50px;
+	}
+
+	.footerText
+	{
+		2vw;
+	}
+
+	.columns
+	{
+		height: 50px;
+		font-size: 3vw;
+	}
+
+	.end
+	{
+		font-size: 2vw;
+	}
+
+    
+}
+
 
 
 
